@@ -1,4 +1,5 @@
 /* CSS Code of Sample News */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -74,7 +75,7 @@ nav ul li ol li {
 	padding: 0.1rem 0.15rem;
 }
 
-#secondarytitle {
+.secondarytitle {
 	color: #000000;
 	font-family: 'Mukta', sans-serif;
 	font-size: 0.85rem;
@@ -82,7 +83,7 @@ nav ul li ol li {
 	text-decoration: none;
 }
 
-#secondarytitle:hover, #secondarytitle.active {
+.secondarytitle:hover, .secondarytitle.active {
 	color: #d36d00;
 }
 
@@ -392,15 +393,7 @@ footer a:hover {
 
 /* Responsive */
 
-@media screen and (min-width:450px) {
-
-	nav ul {
-		flex-direction: column;
-		align-items: center;
-	}
-}
-
-@media screen and (min-width:1050px) {
+@media screen and (max-width:1280px) {
 
 	nav ul {
 		flex-direction: column;
