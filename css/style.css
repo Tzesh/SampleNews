@@ -256,14 +256,14 @@ aside {
 	text-align: center;
 }
 
-article input, article textarea {
+article input, article textarea, article option, article select {
 	border: #333333 0.2rem solid;
 	padding: 0.4rem 0.2rem;
 	color: #d36d00;
 	background-color: #333333;
 }
 
-article input:focus, article textarea:focus, article button:focus {
+article input:focus, article textarea:focus, article button:focus, article option:focus, article select:focus {
 	outline: none;
 	border: #d36d00 0.2rem solid;
 }
@@ -337,6 +337,17 @@ article i:hover {
 
 .working-schedule {
 	text-align: center;
+}
+
+.social-media {
+	color: #d36d00;
+	font-size: 2rem;
+	transition: all 0.5s;
+	margin: 0.5rem;
+}
+
+.social-media:hover {
+	color: #333333;
 }
 
 /* Footer */
